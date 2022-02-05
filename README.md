@@ -63,6 +63,7 @@ To extend the volume and power buttons, 6 cables were soldered directly to the o
 ## Assembly
 
 To disassemble the phone you can follow this [video](https://www.youtube.com/watch?v=Au_gIYhe4k8)
+To loosen the display adhesive, i used the heated bed (at 90° Celsius) of my 3D printer.
 
     1. Place the mainboard into the case and screw it with M1.2x5 self-tapping screws.
     2. Screw the charger board into the case with M1.2x5 self-tapping screws. (with the ribbon cable connected)
