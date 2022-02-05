@@ -35,7 +35,7 @@
 
 Two capacitors are used instead of the battery. The capacitors are connected in series to withstand the voltage of 5V.
 
-The capacitors are charged directly via the voltage of the ribbon cable.
+The capacitors are charged directly via the 5V coming from the ribbon cable.
 To prevent the capacitors from being charged via the mainboard, a blocking diode is used.
 
 The fan is also connected directly to the ribbon cable.
