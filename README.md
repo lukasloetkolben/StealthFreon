@@ -1,21 +1,71 @@
 # StealthFreon
+
 Detailed instructions will follow
 
 ## Parts
-M1.2 x 5mm & M1.7 x 5mm Phillips Micro Screws
-[aliexpress](https://de.aliexpress.com/item/1005001348418355.html?spm=a2g0o.productlist.0.0.9d5e140elFf2bj&algo_pvid=5ed15ef4-2082-4051-968a-a99a37476d1c&algo_exp_id=5ed15ef4-2082-4051-968a-a99a37476d1c-6&pdp_ext_f=%7B%22sku_id%22%3A%2212000015772697121%22%7D&pdp_pi=-1%3B4.5%3B-1%3B-1%40salePrice%3BEUR%3Bsearch-mainSearch)
 
-Round Micro Switch  6 x 6 x 5mm
-[aliexpress](https://de.aliexpress.com/item/33009771181.html?spm=a2g0o.productlist.0.0.100d2ac3esL5sT&algo_pvid=d229e858-27ac-4016-b16a-91d256866676&algo_exp_id=d229e858-27ac-4016-b16a-91d256866676-0&pdp_ext_f=%7B%22sku_id%22%3A%2267132728428%22%7D&pdp_pi=-1%3B0.46%3B-1%3B-1%40salePrice%3BEUR%3Bsearch-mainSearch)
+- M1.2 x 5mm & M1.7 x 5mm Phillips Micro Screws
+[aliexpress](https://de.aliexpress.com/item/1005001348418355.html)
 
-Noctua NF-A4x10 5V
+- Round Micro Switch  6 x 6 x 5mm
+[aliexpress](https://de.aliexpress.com/item/33009771181.html)
+
+- SuperCapacitor 2,7V 10F
+[aliexpress](https://www.aliexpress.com/item/1005003123401368.html)
+
+- Diode (e.g. P6KE15A)
+[aliexpress](https://www.aliexpress.com/item/32407070026.html)
+
+- Noctua NF-A4x10 5V
+
+## Electronics
+
+### Mainboard Pinout
+
+![](./images/mainboard_pinout.png)
+
+### Batteryless MOD
+
+<span style="color:red"><b>Never use a QuickCharge power supply with the batteryless mod! Otherwise it will break the motherboard. <br> Always use a 5 volt power supply!!</b></span>
+
+![](./images/battless_wiring.png)
+
+Two capacitors are used instead of the battery. The capacitors are connected in series to withstand the voltage of 5V.
+
+The capacitors are charged directly via the voltage of the ribbon cable.
+To prevent the capacitors from being charged via the mainboard, a blocking diode is used.
+
+The fan is also connected directly to the ribbon cable.
+
+### Power and Volume Buttons
+
+![](./images/button_extend.png)
+
+## 3D Printing
+
+![](./images/slicer_case.png)
+
+- Print Settings:
+  - Material: ABS
+  - Infill: 100% (Case) 25% (other parts)
+  - Without Support
+  - Layer Height: 0.16
+  - Speed: 50mm/s
+
+## Assembly
+    1. Place the mainboard into the case and screw it with M1.2x5 self-tapping screws.
+    2. Screw the charger board into the case with M1.2x5 self-tapping screws. (with the ribbon cable connected)
+    3. Connect the ribbon cable to the mainboard
+    3. Mount the buttons bracket with M1.7x5 self-tapping screws.
+    4. Screw the Noctua fan into the "fan frame" and screw it to the case with M1.7x5 self-tapping screws
+    5. Place some double sided tape to the Display. Connect the display to the mainboard and then glue it into the case.
+    6. To secure the display even better, two M1.2x5 screws can be used.
 
 
-## Images
+## CAD
+
 ![](./images/cad_case.png)
 
 ![](./images/cad_fan.png)
 
 ![](./images/cad_display.png)
-
-![](./images/slicer_case.png)
