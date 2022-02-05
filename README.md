@@ -7,6 +7,10 @@
 
 ## Parts
 
+<b>Do not buy the LeEco from the seller "China_Product Store" on aliexpress! He is selling X722 as X720</b>
+
+- LeEco Le Pro3 (x720 or X727)
+
 - M1.2 x 5mm & M1.7 x 5mm Phillips Micro Screws
 [aliexpress](https://de.aliexpress.com/item/1005001348418355.html)
 
@@ -57,6 +61,9 @@ To extend the volume and power buttons, 6 cables were soldered directly to the o
   - Speed: 50mm/s
 
 ## Assembly
+
+To disassemble the phone you can follow this [video](https://www.youtube.com/watch?v=Au_gIYhe4k8&t=68s&ab_channel=ArtBelChannelENG)
+
     1. Place the mainboard into the case and screw it with M1.2x5 self-tapping screws.
     2. Screw the charger board into the case with M1.2x5 self-tapping screws. (with the ribbon cable connected)
     3. Connect the ribbon cable to the mainboard
