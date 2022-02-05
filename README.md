@@ -1,6 +1,9 @@
 # StealthFreon
+****Notice: The driver monitoring does not work anymore after this modification!****
 
-Detailed instructions will follow
+![](./images/final_1.jpg)
+
+![](./images/final_2.jpg)
 
 ## Parts
 
@@ -26,7 +29,7 @@ Detailed instructions will follow
 
 ### Batteryless MOD
 
-<span style="color:red"><b>Never use a QuickCharge power supply with the batteryless mod! Otherwise it will break the motherboard. <br> Always use a 5 volt power supply!!</b></span>
+****<span style="color:red"><b>Never use a QuickCharge power supply with the batteryless mod! Otherwise it will break the motherboard. <br> Always use a 5 volt power supply!!</b></span>****
 
 ![](./images/battless_wiring.png)
 
@@ -38,6 +41,7 @@ To prevent the capacitors from being charged via the mainboard, a blocking diode
 The fan is also connected directly to the ribbon cable.
 
 ### Power and Volume Buttons
+To extend the volume and power buttons, 6 cables were soldered directly to the original switches.
 
 ![](./images/button_extend.png)
 
@@ -57,12 +61,13 @@ The fan is also connected directly to the ribbon cable.
     2. Screw the charger board into the case with M1.2x5 self-tapping screws. (with the ribbon cable connected)
     3. Connect the ribbon cable to the mainboard
     3. Mount the buttons bracket with M1.7x5 self-tapping screws.
-    4. Screw the Noctua fan into the "fan frame" and screw it to the case with M1.7x5 self-tapping screws
+    4. Screw the Noctua fan into the "fan frame" and screw it to the case with 6x M1.7x5 self-tapping screws
     5. Place some double sided tape to the Display. Connect the display to the mainboard and then glue it into the case.
     6. To secure the display even better, two M1.2x5 screws can be used.
 
+![](./images/display_screws.png)
 
-## CAD
+## CAD Images
 
 ![](./images/cad_case.png)
 
