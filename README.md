@@ -19,7 +19,7 @@ According to the safety regulations of comma.ai, a wheeltouch every 35 seconds i
 - Round Micro Switch  6 x 6 x 5mm
 [aliexpress](https://de.aliexpress.com/item/33009771181.html)
 
-- SuperCapacitor 2,7V 10F
+- 2x SuperCapacitor 2,7V 10F
 [aliexpress](https://www.aliexpress.com/item/1005003123401368.html)
 
 - Diode (e.g. P6KE15A)
